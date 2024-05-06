@@ -1,5 +1,17 @@
 # Pemdas-friendly-Calculator
 this repo is Pemdas friendly Calculator which is a calculator which uses the precedence of operation which is bracketed at first then exponentials then mult and div finally add and subs
+## how to use
+### Simple initialization 
+copy the two functions
+float calculate_product(char *input) {}\
+float custom_pow(float base, int exponent){}\
+and put them into your code
+### Neat initialization 
+copy Calc.c and Calc.h into your project
+### usage
+call the function calculate_product(arr);
+arr must be like ""2^3-2+5+(3+2)"
+
 ## Algorithm for `calculate_product` function
 
 1. **Initialization**:
